@@ -134,7 +134,8 @@ def edit_record(id):
 
                 # 處理餘額
                 project_obj.current_price += record.price
-                old_project.current_price -= record.price
+                if old_project:
+                    old_project.current_price -= record.price
 
                 # 處理關聯
                 project_obj.records.append(record)
@@ -168,6 +169,9 @@ def edit_record(id):
     if not is_in:
         pprice = -record.price
 
+    else:
+        pprice = record.price
+        
     return render_template(
         "main/edit_record.html",
         record=record,
