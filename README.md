@@ -30,4 +30,4 @@
     ```
 * 再來就去 `127.0.0.1:5000` 就有了
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/wk5P4kmJWIc/0.jpg)]([https://www.youtube.com/watch?v=wk5P4kmJWIc] "B11009031毛世鑫 財管系統 Demo")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/wk5P4kmJWIc/0.jpg)](https://youtu.be/wk5P4kmJWIc "B11009031毛世鑫 財管系統 Demo")
